@@ -27,7 +27,7 @@ defmodule BambooSmtp.Mixfile do
 
   defp deps do
     [
-      {:bamboo, "~> 1.2"},
+      {:bamboo_smtp, github: "thoughtbot/bamboo", ref: "84eb4e303d635ad9213e6d244e20bc51ccf692d1"},
       {:credo, "~> 1.1.4", only: [:dev, :test]},
       {:earmark, ">= 1.3.2", only: :docs},
       {:excoveralls, "~> 0.12.0", only: :test},
